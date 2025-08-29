@@ -31,7 +31,7 @@ public class Home extends javax.swing.JFrame {
     public Home(String truckChoice) {
         initComponents();
         songLib = new DefaultListModel();
-        ImageIcon bg = new ImageIcon("Pizza.png");
+        ImageIcon bg = new ImageIcon("images/Pizza.png");
         jLabel1.setIcon(bg);
         this.setSize(bg.getIconWidth(), bg.getIconHeight());
         jScrollPane1.setOpaque(false);
@@ -62,22 +62,22 @@ public class Home extends javax.swing.JFrame {
         type = truckChoice;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("Burger.png");
+                bg = new ImageIcon("images/Burger.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("Dessert.png");
+                bg = new ImageIcon("images/Dessert.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("Pizza.png");
+                bg = new ImageIcon("images/Pizza.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("Breakfast.png");
+                bg = new ImageIcon("images/Breakfast.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("Crepe.png");
+                bg = new ImageIcon("images/Crepe.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("Taco_Burrito.png");
+                bg = new ImageIcon("images/Taco_Burrito.png");
                 break;
         }
         jLabel1.setIcon(bg);
@@ -111,22 +111,22 @@ public class Home extends javax.swing.JFrame {
         type = truckChoice;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("Burger.png");
+                bg = new ImageIcon("images/Burger.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("Dessert.png");
+                bg = new ImageIcon("images/Dessert.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("Pizza.png");
+                bg = new ImageIcon("images/Pizza.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("Breakfast.png");
+                bg = new ImageIcon("images/Breakfast.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("Crepe.png");
+                bg = new ImageIcon("images/Crepe.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("Taco_Burrito.png");
+                bg = new ImageIcon("images/Taco_Burrito.png");
                 break;
         }
         jLabel1.setIcon(bg);

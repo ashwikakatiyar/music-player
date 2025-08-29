@@ -21,7 +21,7 @@ public class TruckTypeChoice extends javax.swing.JFrame {
      */
     public TruckTypeChoice() {
         initComponents();
-        ImageIcon bg = new ImageIcon("Dropdown.png");
+        ImageIcon bg = new ImageIcon("images/Dropdown.png");
         jLabel1.setIcon(bg);
         this.setSize(bg.getIconWidth(), bg.getIconHeight());
     }

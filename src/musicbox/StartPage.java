@@ -19,7 +19,7 @@ public class StartPage extends javax.swing.JFrame {
      */
     public StartPage() {
         initComponents();
-        ImageIcon bg = new ImageIcon("main_bg.png");
+        ImageIcon bg = new ImageIcon("images/main_bg.png");
         jLabel1.setIcon(bg);
         this.setSize(bg.getIconWidth(), bg.getIconHeight());
     }

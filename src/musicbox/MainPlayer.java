@@ -69,22 +69,22 @@ public class MainPlayer extends javax.swing.JFrame {
         ImageIcon bg = null;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("BurgerPlay.png");
+                bg = new ImageIcon("images/BurgerPlay.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("DessertPlay.png");
+                bg = new ImageIcon("images/DessertPlay.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("PizzaPlay.png");
+                bg = new ImageIcon("images/PizzaPlay.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("BreakfastPlay.png");
+                bg = new ImageIcon("images/BreakfastPlay.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("CrepePlay.png");
+                bg = new ImageIcon("images/CrepePlay.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("Taco_BurritoPlay.png");
+                bg = new ImageIcon("images/Taco_BurritoPlay.png");
                 break;
         }
         background.setIcon(bg);

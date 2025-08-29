@@ -39,22 +39,22 @@ public class AddToSongLibrary extends javax.swing.JFrame {
         ImageIcon bg = null;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("BurgerAdd.png");
+                bg = new ImageIcon("images/BurgerAdd.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("DessertAdd.png");
+                bg = new ImageIcon("images/DessertAdd.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("PizzaAdd.png");
+                bg = new ImageIcon("images/PizzaAdd.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("BreakfastAdd.png");
+                bg = new ImageIcon("images/BreakfastAdd.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("CrepeAdd.png");
+                bg = new ImageIcon("images/CrepeAdd.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("TacoAdd.png");
+                bg = new ImageIcon("images/TacoAdd.png");
                 break;
         }
         jLabel1.setIcon(bg);

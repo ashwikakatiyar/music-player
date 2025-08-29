@@ -45,22 +45,22 @@ public class SinglePlayListEdit extends javax.swing.JFrame {
         type = truckChoice;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("EditPLBurger.png");
+                bg = new ImageIcon("images/EditPLBurger.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("EditPLDessert.png");
+                bg = new ImageIcon("images/EditPLDessert.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("EditPLPizza.png");
+                bg = new ImageIcon("images/EditPLPizza.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("EditPLBreakfast.png");
+                bg = new ImageIcon("images/EditPLBreakfast.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("EditPLCrepe.png");
+                bg = new ImageIcon("images/EditPLCrepe.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("EditPLTaco.png");
+                bg = new ImageIcon("images/EditPLTaco.png");
                 break;
         }
         jLabel1.setIcon(bg);
@@ -102,22 +102,22 @@ public class SinglePlayListEdit extends javax.swing.JFrame {
         type = truckChoice;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("EditPLBurger.png");
+                bg = new ImageIcon("images/EditPLBurger.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("EditPLDessert.png");
+                bg = new ImageIcon("images/EditPLDessert.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("EditPLPizza.png");
+                bg = new ImageIcon("images/EditPLPizza.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("EditPLBreakfast.png");
+                bg = new ImageIcon("images/EditPLBreakfast.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("EditPLCrepe.png");
+                bg = new ImageIcon("images/EditPLCrepe.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("EditPLTaco.png");
+                bg = new ImageIcon("images/EditPLTaco.png");
                 break;
         }
         jLabel1.setIcon(bg);
@@ -152,22 +152,22 @@ public class SinglePlayListEdit extends javax.swing.JFrame {
         type = truckChoice;
         switch (type) {
             case "Burgers and Sliders":
-                bg = new ImageIcon("EditPLBurger.png");
+                bg = new ImageIcon("images/EditPLBurger.png");
                 break;
             case "Desserts":
-                bg = new ImageIcon("EditPLDessert.png");
+                bg = new ImageIcon("images/EditPLDessert.png");
                 break;
             case "Pizza":
-                bg = new ImageIcon("EditPLPizza.png");
+                bg = new ImageIcon("images/EditPLPizza.png");
                 break;
             case "Breakfast and Brunch":
-                bg = new ImageIcon("EditPLBreakfast.png");
+                bg = new ImageIcon("images/EditPLBreakfast.png");
                 break;
             case "Crepes":
-                bg = new ImageIcon("EditPLCrepe.png");
+                bg = new ImageIcon("images/EditPLCrepe.png");
                 break;
             case "Tacos and Burritos":
-                bg = new ImageIcon("EditPLTaco.png");
+                bg = new ImageIcon("images/EditPLTaco.png");
                 break;
         }
         jLabel1.setIcon(bg);
